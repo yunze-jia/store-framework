@@ -16,6 +16,7 @@ Install `vtexasia.onsite-personalization@0.x` in your account.
 ### Step 2 - Setup Onsite Personalization app
 1. To set up the Onsite Personalization app, you need to add it to your store theme's manifest.json, under `peerDependencies` section.
 
+```json
   {
     "vendor": "vtexasia",
     "name": "store-theme",
@@ -41,6 +42,7 @@ Install `vtexasia.onsite-personalization@0.x` in your account.
     },
     "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
   }
+```
 
 2. Add the event handler block, personalized-events-handler, which manages events involving user data changing, must be located at the top of the page block.
 
@@ -72,6 +74,7 @@ There are three main functions of the app.
 
 Add `personalized-text-replacer` to your store theme:
 
+```json
   {
     "store.home": {
       "blocks": [
@@ -88,6 +91,7 @@ Add `personalized-text-replacer` to your store theme:
 
     },
   }
+```
 
 Inside your CMS Site Editor, open `Personalized Text Replacer`, add a text placeholder to the desired place, and use double curly braces for the text to be replaced later, e.g. {{city}}.
 
@@ -113,7 +117,7 @@ You can add multiple `Text Placeholders`.
 
 Add `personalized-block` to your store theme, and add children blocks under the `personalized-block` (can be any block):
 
-
+```json
   {
     "store.home": {
       "blocks": [
@@ -135,6 +139,7 @@ Add `personalized-block` to your store theme, and add children blocks under the 
       "children": ["info-card#test"]
     },
   }
+```
 
 Inside your CMS Site Editor, open `Personalized Block`, and select the visibility for the target customer cluster.
 
@@ -147,6 +152,7 @@ So only customers from customer cluster `Men` will be able to see the `info-card
 
 Add `personalized-collection` to your store theme, add product shelf as a child block:
 
+```json
   {
     "store.home": {
       "blocks": [
@@ -186,6 +192,7 @@ Add `personalized-collection` to your store theme, add product shelf as a child 
       ]
     },
   }
+```
 
 Create Collections for the products under the Catalog.
 
