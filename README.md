@@ -46,27 +46,27 @@ Install `vtexasia.onsite-personalization@0.x` in your account.
 
 2. Add the event handler block, personalized-events-handler, which manages events involving user data changing, must be located at the top of the page block.
 
-  For example, in home.json:
+    For example, in home.json:
 
-  ```json
-  {
-    "store.home": {
-      "blocks": [
-        "personalized-events-handler",
-        "info-card#home",
-        "rich-text#question",
-        "rich-text#link",
-        "newsletter"
-      ]
+    ```json
+    {
+      "store.home": {
+        "blocks": [
+          "personalized-events-handler",
+          "info-card#home",
+          "rich-text#question",
+          "rich-text#link",
+          "newsletter"
+        ]
+      }
     }
-  }
-  ```
-  
+    ```
+
 3. Add a `Customer cluster` field in the Client data entity in the Masterdata, this will help us to group the customers.
 
   ![Getting Started](ss1.png)
 
-  Now you have successfully configured the app! 
+    Now you have successfully configured the app! 
 
 
 
