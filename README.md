@@ -74,7 +74,7 @@ Install `vtexasia.onsite-personalization@0.x` in your account.
 
 There are three main functions of the app.
 
-### Replace the text on the page based on the customer cluster
+### 1. Replace the text on the page based on the customer cluster
 
 Add `personalized-text-replacer` to your store theme:
 
@@ -117,7 +117,7 @@ After that add `Personalization Rules`, where you can set specific text for the 
 
 You can add multiple `Text Placeholders`.
 
-### Control the visibility of child blocks based on customer cluster
+### 2. Control the visibility of child blocks based on customer cluster
 
 Add `personalized-block` to your store theme, and add children blocks under the `personalized-block` (can be any block):
 
@@ -152,7 +152,7 @@ Inside your CMS Site Editor, open `Personalized Block`, and select the visibilit
 So only customers from customer cluster `Men` will be able to see the `info-card`. Similarly, if I unselect the `visibility`, only customers from customer cluster `Men` will be unable to see the `info-card`.
 
 
-### Control the collection of displayed products based on the customer cluster
+### 3. Control the collection of displayed products based on the customer cluster
 
 Add `personalized-collection` to your store theme, add product shelf as a child block:
 
