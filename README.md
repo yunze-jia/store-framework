@@ -62,7 +62,7 @@ Install `vtexasia.onsite-personalization@0.x` in your account.
     }
     ```
 
-3. Add a `Customer cluster` field in the Client data entity in the Masterdata, this will help us to group the customers.
+3. Add a `Customer cluster` field in the Client data entity in the Masterdata, this will help us to group the customers. You can follow this guide to create a    field in Client data entity: [Creating a field in Master Data](https://help.vtex.com/tutorial/how-can-i-create-field-in-master-data).
 
   ![Getting Started](ss1.png)
 
