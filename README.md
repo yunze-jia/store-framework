@@ -66,7 +66,7 @@ Install `vtexasia.onsite-personalization@0.x` in your account.
 
   ![Getting Started](ss1.png)
 
-    Now you have successfully configured the app! 
+Now you have successfully configured the app! 
 
 
 
